@@ -1,0 +1,875 @@
+* {
+	font-family: 'Holtwood One SC', serif;
+	font-family: 'Inter', sans-serif;
+	font-family: 'Modak', cursive;
+	font-family: 'Pridi', serif;
+	font-family: 'Prompt', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background-color: #000000;
+	background-image: url("background-desktop.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.header {
+	z-index: 2;
+		position: fixed;
+	box-sizing: border-box;
+	width: 100%;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+
+	background: rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid #000000;
+	backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+}
+
+.logo {
+	position: absolute;
+	width: 92px;
+	height: 19px;
+	left: 16px;
+	top: 8px;
+
+	background: url(logo.png);
+}
+.about {
+	display: none;
+}
+.get {
+	position: absolute;
+width: 50px;
+height: 10px;
+right: 16px;
+top: 12px;
+text-decoration: none;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #888888;
+
+}
+
+
+.content {
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+
+.main-text {
+	position: border-box;
+	max-width: 265px;
+	height: 27px;
+	margin: 0 auto;
+	margin-top: 75px;
+
+
+	font-family: 'Prompt';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.main-text-two {
+	position: border-box;
+	width: 145px;
+	height: 13px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.main-about {
+	position: border-box;
+	width: 207px;
+	height: 13px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+.main-img-cont {
+	position: border-box;
+	width: 208px;
+	height: 209px;
+	margin: 0 auto;
+}
+.main-img {
+	position: border-box;
+	width: 208px;
+	height: 209px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	background: url(moon.png);
+}
+.main-text-about {
+	position: border-box;
+	width: 217px;
+	height: 10px;
+	margin: 0 auto;
+	margin-top: 16px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.main-text-about-two {
+	position: border-box;
+	width: 182px;
+	height: 9px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+.site-about {
+	position: border-box;
+	width: 80px;
+	height: 15px;
+	margin: 0 auto;
+	margin-top: 52px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+.site-text {
+	position: border-box;
+	width: 100%;
+	height: 68px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.site-main-mind {
+	position: border-box;
+	max-width: 442px;
+	height: 31px;
+	margin: 0 auto;
+	margin-top: 14px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+.content-one {
+	position: border-box;
+	width: 120px;
+	height: 12px;
+	margin: 0 auto;
+	margin-top: 35px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+.site-text-two {
+	position: border-box;
+	max-width: 564px;
+	height: 24px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+.site-main-two {
+	position: border-box;
+	width: 223px;
+	height: 14px;
+	margin: 0 auto;
+	margin-top: 32px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.site-text-end {
+	position: border-box;
+	max-width: 295px;
+	height: 22px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.donation-qiest {
+	position: border-box;
+	width: 244px;
+	height: 17px;
+	margin: 0 auto;
+	margin-top: 30px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.donation-text {
+	position: borde-box;
+	width: 191px;
+	height: 11px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.icon-color {
+	position: border-box;
+	width: 240px;
+	height: 38px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background: #FFFFFF;
+	border-radius: 20px;
+}
+.color-face {
+	position: border-box;
+	width: 20px;
+	height: 20px;
+	margin-top: 9px;
+	margin-left: 15px;
+
+
+
+}
+.color-inst {
+	position: border-box;
+	width: 20px;
+	height: 20px;
+	margin-top: 9px;
+	margin-left:15px ;
+
+}
+.color-yout {
+	position: border-box;
+	width: 20px;
+	height: 20px;
+	margin-top: 9px;
+	margin-left: 15px;
+
+
+}
+.color-twit {
+	position: border-box;
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+}
+.color-tikt {
+	position: border-box;
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+}
+.color-telg {
+	position: border-box;
+	width: 20px;
+	height: 20px;
+	margin-left: 15px;
+
+}
+
+
+.donation-text-two {
+	position: border-box;
+	width: 220px;
+	height: 9px;
+	margin: 0 auto;
+	margin-top: 38px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+.donation {
+	position: border-box;
+	margin: 0 auto;
+	width: 186px;
+	height: 38px;
+	margin-top: 10px;
+
+}
+
+.donation-img {
+	position: border-box;
+	width: 186px;
+	height: 38px;
+	margin: 0;
+
+	background: url(АИВОСИО.jpg);
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+.mobile-app {
+	z-index: -1;
+	position: relative;
+	width: 95%;
+	height: 190px;
+	margin: 0 auto;
+	margin-top: 21px;
+
+	background: rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+
+.mobile-app-h {
+	position: border-box;
+	width: 139px;
+	height: 13px;
+	margin: 0 auto;
+	margin-top:10px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.mobile-logo {
+	position: border-box;
+	width: 70px;
+	height: 15px;
+
+	margin: 0 auto;
+	margin-top: 8px;
+	font-family: 'Holtwood One SC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 33px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+.mobile-text {
+	position: border-box;
+	width: 120px;
+	height: 11px;
+	margin: 0 auto;
+	margin-top: 15px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.mobile-text-one {
+	position: border-box;
+	width: 181px;
+	height: 10px;
+	margin: 0 auto;
+	margin-top: 9px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.mobile-text-two {
+	position: border-box;
+	width: 152px;
+	height: 8px;
+	margin: 0 auto;
+	margin-top: 9px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+.mobile-text-end {
+	position: border-box;
+	max-width: 288px;
+	height: 13px;
+	margin: 0 auto;
+	margin-top: 9px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+
+
+.app-store {
+	position: absolute;
+	width: 100px;
+	height: 35px;
+	left: 60px;
+	top: 145px;
+
+}
+
+.google-play {
+	position: absolute;
+	width: 100px;
+	height: 35px;
+	right: 60px;
+	top: 145px;
+}
+.mobile-end {
+	position: border-box;
+	width: 219px;
+	height: 10px;
+	margin: 0 auto;
+	margin-top: 12px;
+
+	font-family: 'Pridi';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+
+.down-bar {
+	position: border-box;
+	height: 100px;
+}
+
+.logo-bar {
+	position: absolute;
+	width: 80px;
+	height: 11px;
+	left: 10px;
+	top: 1233px;
+
+	font-family: 'Holtwood One SC';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 8px;
+	line-height: 13px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.text-bar {
+	position: absolute;
+	width: 45px;
+	height: 7px;
+	left: 10px;
+	top: 1290px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 8px;
+	line-height: 9px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.text-bar-two {
+	position: absolute;
+	width: 52px;
+	height: 7px;
+	left: 70px;
+	top: 1290px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 8px;
+	line-height: 9px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.face {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 159px;
+	top: 1234px;
+}
+.twit {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 129px;
+	top: 1234px;
+}
+
+.inst {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 99px;
+	top: 1234px;
+}
+.yout {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 69px;
+	top: 1234px;
+}
+.telg {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 39px;
+	top: 1234px;
+}
+.tikt {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 9px;
+	top: 1234px;
+}
+
+.support {
+	position: absolute;
+	width: 32px;
+	height: 9px;
+	right: 141px;
+	top: 1274px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 8px;
+	line-height: 10px;
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+
+}
+
+.mail-contact {
+	position: absolute;
+	width: 138px;
+	height: 9px;
+	right: 23px;
+	top: 1287.5px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 8px;
+	line-height: 10px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.mail-logo {
+	position: absolute;
+	width: 11px;
+	height: 9px;
+	right: 163px;
+	top: 1296px;
+}
+
+
+
+
+
+
+.img-anal,
+.img-grear,
+.mobile-scren,
+.coming-soon-mobile {
+	display: none;
+}
+
+
+@media (max-width:575px) {
+	.app-store {
+	left: 100px;
+
+}
+
+.google-play {
+	right: 100px;
+
+}
+}
+
+
+@media (max-width:460px) {
+	.app-store {
+	left: 80px;
+
+}
+
+.google-play {
+	right: 80px;
+
+}
+}
+
+@media (max-width:400px) {
+	.app-store {
+	left: 60px;
+
+}
+
+.google-play {
+	right: 60px;
+
+}
+}
+
+@media (max-width:360px) {
+	.app-store {
+	left: 40px;
+
+}
+
+.google-play {
+	right: 40px;
+
+}
+}
+
+@media (max-width:320px) {
+
+
+	.app-store {
+	left: 25px;
+
+}
+
+.google-play {
+	right: 25px;
+
+}
+.logo-bar-two {
+	left: 74px;
+}
+}
+
+
+
+@media (max-width:320px) {
+	.app-store {
+	left: 25px;
+
+}
+
+.google-play {
+	right: 25px;
+
+}
+}
+
+
+
