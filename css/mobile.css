@@ -107,7 +107,8 @@ color: #888888;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #CFCFCF;
+;
 }
 .main-about {
 	position: border-box;
@@ -125,7 +126,7 @@ color: #888888;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 
 }
 .main-img-cont {
@@ -159,7 +160,7 @@ color: #888888;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 }
 .main-text-about-two {
 	position: border-box;
@@ -177,7 +178,7 @@ color: #888888;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 
 }
 
@@ -216,7 +217,7 @@ color: #888888;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 }
 .site-main-mind {
 	position: border-box;
@@ -274,7 +275,7 @@ color: #888888;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 
 }
 
@@ -314,7 +315,7 @@ color: #888888;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 }
 
 .donation-qiest {
@@ -352,7 +353,7 @@ color: #888888;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #CFCFCF;
 }
 
 .icon-color {
@@ -428,7 +429,7 @@ color: #888888;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #CFCFCF;
 
 }
 
@@ -529,7 +530,7 @@ border-radius: 20px;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 }
 .mobile-text-one {
 	position: border-box;
@@ -547,7 +548,7 @@ border-radius: 20px;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 }
 
 .mobile-text-two {
@@ -566,7 +567,7 @@ border-radius: 20px;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 }
 .mobile-text-end {
 	position: border-box;
@@ -584,7 +585,7 @@ border-radius: 20px;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 }
 
 
@@ -647,7 +648,7 @@ border-radius: 20px;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #E3E3E3;
 }
 
 .text-bar {
@@ -666,7 +667,7 @@ border-radius: 20px;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 }
 
 .text-bar-two {
@@ -685,7 +686,7 @@ border-radius: 20px;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 }
 
 .face {
@@ -747,7 +748,7 @@ border-radius: 20px;
 	display: flex;
 	align-items: center;
 
-	color: #FFFFFF;
+	color: #BBBBBB;
 
 }
 
@@ -767,7 +768,7 @@ border-radius: 20px;
 	align-items: center;
 	text-align: center;
 
-	color: #FFFFFF;
+	color: #E3E3E3;
 }
 
 .mail-logo {
